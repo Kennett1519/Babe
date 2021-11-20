@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins';
+}
+
+.contenido {
+    margin-top: 5%;
+    text-align: center;
+    height: 250px;
+}
+
+body {
+    background-color: #daeaf7;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #4fa5d8;
+    height: 50px;
+}
+
+header p {
+    font-size: 20px;
+    color: #010e54;
+    padding: 10px;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 20px;
+    color: #010e54;
+    padding: 10px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 100%;
+}
+
+.formulario {
+    width: 75%;
+    left: 25%;
+    position: absolute;
+}
+
+.seleccion {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    color: #010e54;
+}
+
+.boton {
+    margin-left: 20px;
+}
+
+footer {
+    background-color: #4fa5d8;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
+footer p {
+    font-size: 20px;
+    color: #010e54;
+    position: absolute;
+    right: 0;
+    padding: 10px;
+    font-weight: 700;
+}
+
+.button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #010e54;
+    color: #daeaf7;
+    position: relative;
+    left: 18%;
+}
+
+.fotos {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.gatito {
+    text-align: center;
+    width: 50%;
+    padding-top: 30px;
+}
+
+img {
+    height: 250px;
+}
+
+.nosotros {
+    text-align: center;
+    width: 50%;
+}
+
+.nosotros p {
+    padding-bottom: 5px;
+}
