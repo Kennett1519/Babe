@@ -9,7 +9,7 @@
 .contenido {
     margin-top: 5%;
     text-align: center;
-    height: 250px;
+    height: 320px;
 }
 
 body {
@@ -24,6 +24,7 @@ main {
 header {
     background-color: #4fa5d8;
     height: 50px;
+    width: 100%;
 }
 
 header p {
@@ -46,8 +47,7 @@ form {
 }
 
 .formulario {
-    width: 75%;
-    left: 25%;
+    left: 15%;
     position: absolute;
 }
 
@@ -103,7 +103,7 @@ footer p {
 }
 
 img {
-    height: 250px;
+    height: 150px;
 }
 
 .nosotros {
